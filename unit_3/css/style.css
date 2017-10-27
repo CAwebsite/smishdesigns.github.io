@@ -1,0 +1,98 @@
+
+
+
+
+
+h1 {
+	color: orange;
+	text-align: center;
+	font-family: Museo Sans;
+	font-size: 40px;
+	font-weight: medium;
+	margin: 2cm 6cm 0cm 6cm;
+}
+
+h2 {
+	color: orange;
+	text-align: center;
+	font-family: Museo Sans;
+	font-weight: medium;
+	font-style: italic;
+	margin: 0.2cm 6cm 0cm 6cm;
+}
+
+
+div.transbox {
+    background-color: #232222;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: orange;
+}
+
+.slogan {
+    position: absolute;
+    top: 35%;
+    left: 50px;
+}
+
+.button {
+	position: absolute;
+    background-color: orange;
+    border: none;
+    color: white;
+    margin: 0.5cm 6cm 0cm 13.5cm;
+    padding: 10px 35px 10px 35px;
+    text-align: center;
+    font-family: Museo Sans;
+	font-size: 14px;
+	font-weight: medium;
+    display: inline-block;
+}
+
+hr{
+	width: 900px;
+	height: 0.3px;
+	margin: .5cm 6cm 0cm 4cm;
+	color-rendering: orange;
+	border-color: orange;
+	background-color: orange;
+}
+
+h3 {
+	color: orange;
+	text-align: left;
+	font-family: Museo Sans;
+	font-size: 18px;
+	font-weight: thin;
+	margin: .5cm 6cm 0cm 4cm;
+}
+
+p{
+	text-align: left;
+	font-family: Museo Sans;
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: lighter;
+	margin: .5cm 6cm 0cm 4cm;
+}
+
+ul {
+text-align: center;
+list-style-type: none;
+}
+
+li {
+	line-height: 25px;
+	text-align: left;
+	font-family: Museo Sans;
+	font-size: 14px;
+	font-weight: lighter;
+	margin: .5cm 6cm 0cm 4cm;
+}
+
+
