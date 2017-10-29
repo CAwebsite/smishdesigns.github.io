@@ -7,9 +7,9 @@ h1 {
 	color: orange;
 	text-align: center;
 	font-family: 'Heebo', sans-serif;
-	font-size: 40px;
+	font-size: 45px;
 	font-weight: medium;
-	margin: 2cm 6cm 0cm 6cm;
+
 }
 
 h2 {
@@ -18,34 +18,24 @@ h2 {
 	font-family: 'Heebo', sans-serif;
 	font-weight: thin;
 	font-style: italic;
-	margin: 0.2cm 6cm 0cm 6cm;
 }
 
-
-div.transbox {
-    background-color: #232222;
-    opacity: 0.3;
-    filter: alpha(opacity=30);
-}
 
 .container {
     position: relative;
     text-align: center;
     color: orange;
+    margin-top: 100px;
 }
 
 .slogan {
-    position: absolute;
-    top: 35%;
-    left: 50px;
+	padding-top: 160px;
 }
 
 .button {
-	position: absolute;
     background-color: orange;
     border: none;
     color: white;
-    margin: .7cm 6cm 0cm 13.5cm;
     padding: 10px 35px 10px 35px;
     text-align: center;
     font-family: 'Heebo', sans-serif;
@@ -54,8 +44,15 @@ div.transbox {
     display: inline-block;
 }
 
+#wrapper {
+	background-color: #FFFAF0;
+	width: 960px;
+	margin: 0 auto;
+}
+
+
 hr{
-	width: 900px;
+	width: 600px;
 	height: 0.3px;
 	margin: .5cm 6cm 0cm 4cm;
 	color-rendering: orange;
@@ -95,4 +92,14 @@ li {
 	margin: .5cm 6cm 0cm 4cm;
 }
 
+body {
+	background-image: url('../images/ca_building.jpg');
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+body:after {
+	background:rgba(0, 0, 0, 0.75);
+}
 
