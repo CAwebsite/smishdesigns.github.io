@@ -177,4 +177,64 @@ p{
 	background: orange;
 }*/
 
+.image1{
+	background-image: url('../images/ca_image32.jpg');
+	background-size: 660px;
+	height: 300px;
+	text-align: center;
+	margin: 50px 220px 50px 150px;
+	background-repeat: no-repeat;
+}
+
+.quote {
+	text-align: center;
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: 300;
+	color: white;
+	margin: 80px 150px 50px 150px;
+	letter-spacing: 0.075em;
+}
+
+footer {
+    position: relative;
+    height: 300px;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    border: 25px;
+    padding: 80px 25px 25px 0px;
+    width: 960px;
+    margin-bottom: 60px;
+}
+
+.branches {
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 300;
+	margin: .5cm 6cm 0cm 4cm;
+}
+
+.branches-names {
+	text-align: center;
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: 300;
+	color: white;
+	letter-spacing: 0.075em;
+	margin: .5cm 6cm 0cm 4cm;
+}
+
+.link {
+	text-align: center;
+	font-size: 12px;
+	line-height: 25px;
+	color: white;
+	font-weight: 300;
+	text-decoration: none;
+	letter-spacing: 0.075em;
+	margin: .5cm 6cm 0cm 4cm;
+
+}
 
